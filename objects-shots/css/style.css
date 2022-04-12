@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.container {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: stretch;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.item-info {
+}
+
+picture {
+}
+.input-section {
+  background-color: lightyellow;
+}
